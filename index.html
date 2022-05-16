@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contact-us">
+        <form action="#">
+          <label for="customerName">NOMBRE Y APELLIDOS <em>&#x2a;</em></label><input id="customerName" name="customerName" required="" type="text"/>
+          <label for="customerEmail">CORREO<em>&#x2a;</em></label><input id="customerEmail" name="customerEmail" required="" type="email"/>
+          <label for="customerPhone">TELÉFONO</label><input id="customerPhone" name="customerPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel"/>
+          <label for="orderNumber">NÚMERO DE ORDEN</label><input id="orderNumber" name="orderNumber" type="text"/>
+          <label for="customerNote">MENSAJE<em>&#x2a;</em></label><textarea id="customerNote" name="customerNote" required="" rows="4"></textarea>
+          <h3>
+            Proporcione toda la información que pueda sobre su problema
+          </h3>
+          <label for="spamProtection">INFORMACIÓN ADICIONAL<em>&#x2a; </em><span>&nbsp;&nbsp;&nbsp;&nbsp;¿Qué día viene antes del 11 de julio?</span></label>
+
+            <input id="spamProtection" name="spamProtection" type="text"/>
+          <button id="customerOrder">ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>
